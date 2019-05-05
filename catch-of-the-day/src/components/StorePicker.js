@@ -16,7 +16,7 @@ class StorePicker extends React.Component {
   render() {
     return (
       <form className="store-selector" onSubmit={this.goToStore}>
-        {/* elements must be nested inside a single parent element */}
+        {/* elements must be  nested inside a single parent element */}
         <h2>Please Enter A Store</h2>
         <input
           type="text"
